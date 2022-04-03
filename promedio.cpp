@@ -17,9 +17,10 @@ suma=suma+cal;
 }
 prom=suma/5;
 if(prom>=70)
-printf("\nel promedio del alumno %s es de %.2f aprobado",nom,prom);
+printf("\nel promedio del  %s es de %.2f aprobado",nom,prom);
 else
-printf("\nel promedio del alumno %s es de %.2f reprobado",nom,prom);
+printf("\nel promedio del  %s es de %.2f reprobado",nom,prom);
 getch();
+
 return 0;
 }
